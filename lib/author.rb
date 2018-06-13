@@ -6,7 +6,7 @@ class Author
     @posts = []
   end 
   
-  def song_count
+  def post _count
     @songs.length 
   end 
   
