@@ -6,7 +6,7 @@ class Song
     @genre = genre 
   end 
   
-  def artist.name 
+  def artist_name 
     self.artist.name 
   end 
 end 
