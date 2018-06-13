@@ -9,7 +9,7 @@ class Post
   end 
   
   def author_name
-    self.auther.name if self.auther.name?
+    self.auther.name unless self.auther.name.nil?
   end
   
   def self.all 
