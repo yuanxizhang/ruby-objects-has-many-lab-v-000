@@ -3,7 +3,7 @@ class Author
   
   def initialize(name = nil)
     @name = name 
-    @songs = []
+    @posts = []
   end 
   
   def song_count
