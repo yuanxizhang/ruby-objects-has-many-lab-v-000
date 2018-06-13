@@ -10,8 +10,7 @@ class Artist
   end 
   
   def self.song_count
-    total = 0 
-    @@all_songs.each {|songs| total += songs.count
+    @@total_songs
   end 
   
   def add_song(song)
