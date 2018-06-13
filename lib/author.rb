@@ -1,11 +1,12 @@
 class Author  
   attr_accessor :name, :posts 
   
-  @@total_posts = =
+  @@total_posts = 0
   
   def initialize(name = nil)
     @name = name 
     @posts = []
+    
   end 
   
   def self.post_count
