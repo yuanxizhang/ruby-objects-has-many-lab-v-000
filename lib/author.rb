@@ -17,7 +17,7 @@ class Author
     new_post 
   end 
   
-  def songs 
-    @songs 
+  def posts 
+    @posts 
   end 
 end
