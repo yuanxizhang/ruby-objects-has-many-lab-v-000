@@ -4,3 +4,8 @@ class Artist
   def initialize(name = nil)
     @name = name 
     @songs = []
+  end 
+  
+  def self.song_count
+    @songs.length 
+  end 
