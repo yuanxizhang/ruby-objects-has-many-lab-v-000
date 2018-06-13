@@ -10,7 +10,7 @@ class Author
   end 
   
   def self.post_count
-    @posts.length 
+    @@total_posts
   end 
   
   def add_post(new_post)
