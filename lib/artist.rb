@@ -9,7 +9,7 @@ class Artist
   end 
   
   def self.song_count
-    @@all_songs.inject(:& +count)
+    @@all_songs.inject(:& +@songs.count)
   end 
   
   def add_song(song)
