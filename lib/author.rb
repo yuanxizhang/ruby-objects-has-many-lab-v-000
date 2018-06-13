@@ -7,7 +7,7 @@ class Author
   end 
   
   def self.post_count
-    @songs.length 
+    @posts.length 
   end 
   
   def add_song_by_name(name)
